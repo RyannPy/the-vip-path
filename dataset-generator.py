@@ -71,6 +71,5 @@ def pelanggan_generator(n_pelanggan=1000):
     return pd.DataFrame(data)
 
 df = pelanggan_generator(1000)
-df.to_csv("dataset_pelanggan.csv")
 
     
